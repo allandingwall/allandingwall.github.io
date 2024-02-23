@@ -1,0 +1,19 @@
+title:              Blog
+email:              example@example.com
+description:        A Blog Theme by Start Bootstrap
+author:             Allan Dingwall
+baseurl:            "/"
+url:                "https://allandingwall.github.io/"
+
+# Social Profiles
+github_username:    allandingwall
+linkedin_username: allandingwall
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
